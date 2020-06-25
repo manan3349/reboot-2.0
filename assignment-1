@@ -1,3 +1,20 @@
-Problem #1     Block System call : 
-Ques.) We have to block the systemcall for date command and firefox.
-Solution -
+# Question 1
+## Blocking System call :
+###### We have to block the systemcall for date command and firefox.
+date
+which date
+/* 
+ * this will give you the location of date.
+ * then go to that loc, that is /usr/bin and search date.
+ * rename the date file by date21 and save it.
+ * then go to that Location /usr/bin/ and create a date file.
+ */
+ cd /usr/bin
+ touch date
+ /* 
+  * this will create an empty file and the original file is renamed by date21.
+  * Now if we do date then it will the kernel will denied the services.
+  */
+  cd
+  date
+  ![alt text](http://url/to/img.png) 
