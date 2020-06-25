@@ -17,6 +17,47 @@ which date
   */
   cd
   date
-  
   ![alt text](A1 date2.PNG) 
   
+  ###### Same for the firefox.
+  firefox
+  which firefox
+/* 
+ * this will give you the location of firefox.
+ * then go to that loc, that is /usr/bin and search firefox.
+ * Open that firefox file and empty the file.
+ * By doing this, the kernel will not respond if we click on firefox or by typing in terminal.
+ * It shows nothing because we have deleted the script/code.
+ */
+ 
+ # Question 2
+ ## Play with directory
+ ###### create a directory without name from command line.
+ /*
+  * Have to create directory without name  or let say blank.
+  * Go to terminal.
+  */
+  mkdir " "
+  /*
+   * Giving space between underscores and will create an empty directory.
+   * And mkdir is basiclly a command to make a directory.
+   * we can see tht blank directory by GUI method, going in file tabs.
+   * and by listing files in terminal by ls
+   */
+   ls
+   
+   ###### create a directory with name "-okgoogle"
+  /*
+  * Have to create directory with name "-okgoogle" .
+  * Go to terminal.
+  */
+  mkdir " -okgoogle"
+  /*
+   * This will create a directory with name starting with -okgoogle.
+   * 1space is important bcz we cant create a directory starting with -
+   * And all must be stored under " ".
+   * we can see tht directory by GUI method, going in file tabs.
+   * and by listing files in terminal by ls
+   */
+   ls
+   
