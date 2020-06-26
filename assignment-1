@@ -13,11 +13,10 @@ which date
  touch date
  /* 
   * this will create an empty file and the original file is renamed by date21.
-  * Now if we do date then it will the kernel will denied the services.
+  * Now if we do date then it will denied the services.
   */
   cd
-  date
-  ![alt text](A1 date2.PNG) 
+  date 
   
   ###### Same for the firefox.
   firefox
@@ -29,6 +28,7 @@ which date
  * By doing this, the kernel will not respond if we click on firefox or by typing in terminal.
  * It shows nothing because we have deleted the script/code.
  */
+ 
  
  # Question 2
  ## Play with directory
