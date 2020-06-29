@@ -51,13 +51,11 @@ which date
   * Have to create directory with name "-okgoogle" .
   * Go to terminal.
   */
-  mkdir " -okgoogle"
+  mkdir -- "-okgoogle"
   /*
    * This will create a directory with name starting with -okgoogle.
-   * 1space is important bcz we cant create a directory starting with -
-   * And all must be stored under " ".
    * we can see tht directory by GUI method, going in file tabs.
    * and by listing files in terminal by ls
    */
    ls
-   
+   /* Source: https://unix.stackexchange.com/questions/241228/creating-directory-with-space-in-name
