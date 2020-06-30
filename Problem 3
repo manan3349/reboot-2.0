@@ -1,0 +1,7 @@
+# Problem 3
+## create a directory structure 
+###### You are only allowed to use a single command and only one time
+# Solution 3: 
+mkdir -p A/{B/{G/K,H/J},C/{I/J,J/L},D/{F/L,E/M}}/Reboot.txt
+tree A
+###### Now, Reboot.txt is shared by all the directories, so if we change any directory, it will reflect to the whole tree
